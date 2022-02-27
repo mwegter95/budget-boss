@@ -11,7 +11,7 @@ const FILES_TO_CACHE = [
     './index.html',
     './js/idb.js',
     './js/index.js',
-    './service-worker.js'
+    './service-worker.js']
 
 
 self.addEventListener('install', function (e) {
