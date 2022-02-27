@@ -67,7 +67,7 @@ function uploadBudgetItems() {
                     // open one more transaction
                     const transaction = db.transaction(['new_budget_item'], 'readwrite');
                     // access the new_budget_item object store
-                    const budgetItemObjectStore = ('new_budget_item');
+                    const budgetItemObjectStore = transaction.objectStore('new_budget_item');
                     // clear all items in your store
                     budgetItemObjectStore.clear();
 
