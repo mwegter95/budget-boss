@@ -12,7 +12,7 @@ Thanks for visiting Budget Boss. This repo is built on starter code for U of MN 
 ## How To Use
 
 The app is deployed on Heroku:
-[https://budget-bozz.herokuapp.com/](https://budget-bozz.herokuapp.com/)
+<a href="https://budget-bozz.herokuapp.com/" target="_blank">https://budget-bozz.herokuapp.com/</a>
 
 - Add a name of transaction and transaction amount
 - Click "Add Funds" or "Subtract Funds" 
@@ -21,7 +21,7 @@ The app is deployed on Heroku:
 
 ## Authors
 
-[mwegter95](https://github.com/mwegter95)
+<a href="https://github.com/mwegter95" target="_blank">mwegter95</a>
 
 U of MN Bootcamp starter code
 
