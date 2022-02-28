@@ -15,7 +15,8 @@ async function walk(dir) {
 }
 
 async function main() {
-    console.log(await walk('public'))
+    // change argument passed to walk function to a string of your directory
+    console.log(await walk('public/icons'))
 }
 
 main()
