@@ -71,7 +71,7 @@ function uploadBudgetItems() {
                     // clear all items in your store
                     budgetItemObjectStore.clear();
 
-                    alert('All saved budget items have been submitted!');
+                    console.log('All saved budget items while offline have now been submitted to the online database!');
                 })
                 .catch(err => {
                     console.log(err);
